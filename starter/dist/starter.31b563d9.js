@@ -1205,7 +1205,6 @@ const renderHomePage = ()=>{
     //Creates subheader element
     const subHeading = (0, _utilityRenderFunctionsJs.createElement)("h2", "A Digital Study Solution for the Modern World");
     //Creates elements
-    console.log("IMAGE IMPORT =", (0, _homePagePngDefault.default));
     const image = (0, _utilityRenderFunctionsJs.createImage)((0, _homePagePngDefault.default), "Desk of laptops");
     //Container for elements
     const homeContainer = document.createElement("div");

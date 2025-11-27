@@ -6,12 +6,13 @@ export default defineConfig([
     {
         files: ["**/*.{js,mjs,cjs}"],
         plugins: { js },
-        extends: ["js/recommended", "plugin:cypress/recommended"],
+        extends: ["js/recommended"],
         languageOptions: {
             globals: {
                 ...globals.browser,
                 ...globals.node,
                 ...globals.mocha,
+                cy: true,
             },
         },
         rules: {

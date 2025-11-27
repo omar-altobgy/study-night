@@ -25,7 +25,6 @@ const renderHomePage = () => {
     );
 
     //Creates elements
-    console.log("IMAGE IMPORT =", homePageImage);
     const image = createImage(homePageImage, "Desk of laptops");
 
     //Container for elements
