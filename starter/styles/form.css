@@ -1,17 +1,7 @@
 /* Card Form Styling */
-/* TODO: Manually optimize CSS styling. */
-/* Remove unused and unnecessary styling and selectors */
-
-form {}
-
 form {
   display: flex;
   flex-direction: column;
-}
-
-
-form {
-  max-width: 100px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -26,8 +16,7 @@ label {
   color: #333333;
 }
 
-input[type="text"] {
-
+#titleInput, #termInput, #descriptionInput {
   width: 100%;
   padding: 10px;
   margin: 15px;
@@ -37,8 +26,6 @@ input[type="text"] {
   box-sizing: border-box;
   transition: border-color 0.3s ease;
 }
-
-
 
 input[type="submit"] {
   width: 100%;
